@@ -1,6 +1,96 @@
 
 	<!-- L'EN-TETE-->
+	<style type="text/css">
+	@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('CaviarDreams-webfont.eot');
+    src: url('CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CaviarDreams-webfont.woff') format('woff'),
+         url('CaviarDreams-webfont.ttf') format('truetype'),
+         url('CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+	}	
+
+	@font-face {
+    font-family: 'black_jackregular';
+    src: url('blackjack-webfont.eot');
+    src: url('blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blackjack-webfont.woff2') format('woff2'),
+         url('blackjack-webfont.woff') format('woff'),
+         url('blackjack-webfont.ttf') format('truetype'),
+         url('blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.navbar-header button
+{
+	margin-top: 30px;
+}
+.navbar
+{
+	background-color: rgb(53,53,53);
+}
+.navbar-brand
+{
+	font-family: 'black_jackregular';
+	font-size: 2.5em; 
+	margin: 20px;
+
+}
+.color_title
+{
+	color: rgb(228,181,112);	
+}
+.nav li a
+{
+	font-family: 'caviar_dreamsregular';
+	font-size: 1.5em;
+	
+}
+
+.nav li:hover
+{
+	background-color: rgb(228,181,112);
+	margin-top: -20px;
+	margin-bottom:-20px; 
+	padding-top: 20px;
+	padding-bottom: 26px;
+	transition: all 500ms linear; -webkit-transition: all 300ms linear;
+}
+.color
+{
+	color: white;
+}
+
+.nav 
+{
+	margin: 20px;
+}
+
+form .btn, form .form-control
+{
+	background-color: rgb(53,53,53);
+	border:none;
+}
+
+.btn i, form .form-control
+{
+	color: rgb(77,89,91);
+	
+}
+
+form .form-control
+{
+	font-family: 'caviar_dreamsregular';
+	font-size: 1.3em;
+	
+}
+
+
+	</style>
 
 	<header>
 
